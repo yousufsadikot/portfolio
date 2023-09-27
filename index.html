@@ -52,7 +52,7 @@
 				</button>
 				<a href="index.html" class="navbar-brand">
 					<img src="assets/img/loop-logo-white.png" alt="Loop Logo" />
-					<h1 class="hide">Parallax HTML One-Page Template</h1>
+					<h1 class="hide">Yousuf Sadikot Portfolio</h1>
 				</a>
 			</div>
 			<nav class="navbar-collapse collapse" id="main-nav" role="navigation">
@@ -460,5 +460,15 @@
 	<script src="assets/js/waypoints.min.js"></script>
 	<script src="assets/js/jquery.magnific-popup.min.js"></script>
 	<script src="assets/js/loop.js"></script>
+
+	<script>
+		$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+	</script>
 </body>
 </html>
