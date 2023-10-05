@@ -40,12 +40,12 @@ jQuery( function($){
 
 	/* navbar setting functions */
 	function setNavbarLight() {
-		$('.navbar').addClass('navbar-light');
+		$('.navbar').addClass('navbar-light').removeClass('navbar-dark');
 		$('.navbar-brand img').attr('src', 'assets/img/loop-logo.png');
 	}
 
 	function setNavbarTransparent() {
-		$('.navbar').removeClass('navbar-light');
+		$('.navbar').removeClass('navbar-light').addClass('navbar-dark');
 		$('.navbar-brand img').attr('src', 'assets/img/loop-logo-white.png');
 	}
 
@@ -84,9 +84,9 @@ jQuery( function($){
 			slide_links: 'blank',		// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 			thumb_links: 0,				// Individual thumb links for each slide
 			slides:  	[				// Slideshow Images
-							{image : 'assets/img/sliders/slider1.jpg', title : '<div class="hero-text"><h2 class="hero-heading">HANDCRAFTED</h2><p>Built to provide great visitor experience</p></div>', thumb : '', url : ''},
-							{image : 'assets/img/sliders/slider2.jpg', title : '<div class="hero-text"><h2 class="hero-heading">PARALLAX</h2><p>Scrolling the page is fun with parallax background</p></div>', thumb : '', url : ''},
-							{image : 'assets/img/sliders/slider3.jpg', title : '<div class="hero-text"><h2 class="hero-heading">BUY ONE FOR TWO</h2><p>Buy one to get both of the agency and personal theme</p></div>', thumb : '', url : ''}  
+							{image : 'assets/img/sliders/slider1.jpg', title : '<div class="hero-text"><h2 class="hero-heading">HANDCRAFTED</h2><p>Built to provide great user experience</p></div>', thumb : '', url : ''},
+							{image : 'assets/img/sliders/slider2.jpg', title : '<div class="hero-text"><h2 class="hero-heading">LIFECYCLE</h2><p>Experience in the lifecycle process spanning many years</p></div>', thumb : '', url : ''},
+							// {image : 'assets/img/sliders/slider3.jpg', title : '<div class="hero-text"><h2 class="hero-heading">BUY ONE FOR TWO</h2><p>Buy one to get both of the agency and personal theme</p></div>', thumb : '', url : ''}  
 						],
 		});
 

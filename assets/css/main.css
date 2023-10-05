@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 15px;
 }
 .navbar-brand img {
-  width: 190px;
+  width: 265px;
   height: auto;
 }
 
@@ -122,8 +122,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar.navbar-light {
   background-color: #f7f7f7;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #b9b9b9;
 }
+
+.navbar.navbar-dark {
+  background-color: #696969;
+  /* border-bottom: 1px solid #08121d; */
+}
+
 .navbar.navbar-light .navbar-nav.nav-text-light > li > a {
   color: #646464;
 }
@@ -248,13 +254,19 @@ a:hover, a:focus {
 
 .section-exp {
   /* background-color: whitesmoke; */
-  background-color: #f1f1f1;
+  background-color: #f7f7f7;
   padding: 70px 0;
 }
 
 .section-tools {
   /* background-color: whitesmoke; */
   background-color: #ffffff;
+  padding: 70px 0;
+}
+
+.section-work {
+  /* background-color: whitesmoke; */
+  background-color: #f7f7f7;
   padding: 70px 0;
 }
 
@@ -280,7 +292,7 @@ a:hover, a:focus {
 }
 .section-heading p {
   font-size: 1.5em;
-  color: #c2c2c2;
+  color: #646464;
 }
 .section-heading hr {
   display: -moz-inline-stack;
@@ -8196,8 +8208,8 @@ ul.sub-list {
 }
 
 .experience-section .job-profile h3{
-  font-weight: 600;
-  color: #b1acac;
+  font-weight: 800!important;
+  /* color: #646464; */
   line-height: 20px;
 }
 
@@ -8207,7 +8219,7 @@ ul.sub-list {
 }
 
  .experience-section .job-profile .company-name {
-font-weight: 500;
+font-weight: 600!important;
 line-height: 1rem;
 }
 
@@ -8280,7 +8292,7 @@ line-height: 1rem;
     }
 
     .experience-section .job-profile img{
-      width: 50px;
+      width: 40px;
       height: auto;
      }
  
