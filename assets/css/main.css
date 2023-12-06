@@ -305,6 +305,17 @@ a:hover, a:focus {
   border-top: 1px solid #646464;
 }
 
+.section-heading-no-margin {
+  text-align: center;
+}
+.section-heading-no-margin h2, .section-heading-no-margin p {
+  font-family: "Dosis", sans-serif;
+}
+.section-heading-no-margin h2 {
+  font-size: 3em;
+  color: #ffae3f;
+}
+
 .section-content h3 {
   color: #c2c2c2;
 }
@@ -7995,7 +8006,7 @@ img.mfp-img {
   font-size: 14px;
 }
 .contact-info i {
-  font-size: 40px;
+  font-size: 24px;
 }
 @media screen and (max-width: 768px) {
   .contact-info {
